@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "userId": "user-a-1",
+      "displayName": "Alice",
+      "avatarPlaceholder": "AL",
+      "createdAt": 1787575100440
+    },
+    {
+      "userId": "user-b-2",
+      "displayName": "Bob",
+      "avatarPlaceholder": "BO",
+      "createdAt": 1787575100440
+    },
+    {
+      "userId": "user-c-3",
+      "displayName": "Charlie",
+      "avatarPlaceholder": "CH",
+      "createdAt": 1787575100440
+    }
+  ],
+  "plans": [
+    {
+      "planId": "045ac4f9-20f4-460b-a30e-0231047970d1",
+      "title": "Weekend Roadtrip",
+      "description": "Planning trip with Bob",
+      "inviteCode": "A8A-WM6-6S",
+      "ownerId": "user-a-1",
+      "ownerName": "Alice",
+      "partnerId": "user-b-2",
+      "partnerName": "Bob",
+      "revision": 2,
+      "blocks": [
+        {
+          "id": "b13611c4-eaaa-4a7f-a413-5f23909a0d10",
+          "type": "PARAGRAPH",
+          "text": "",
+          "spans": [],
+          "headingLevel": "NORMAL",
+          "alignment": "LEFT",
+          "isChecked": false,
+          "numberIndex": 1,
+          "lineSpacing": 1.4,
+          "letterSpacing": 0.3,
+          "paragraphSpacingDp": 8
+        },
+        {
+          "id": "block-1",
+          "type": "HEADING",
+          "text": "Depart at 8:00 AM on Saturday",
+          "spans": [
+            {
+              "start": 0,
+              "end": 6,
+              "isBold": true,
+              "textColorHex": "#60A5FA"
+            }
+          ],
+          "headingLevel": "H2",
+          "alignment": "LEFT",
+          "isChecked": false,
+          "numberIndex": 1,
+          "lineSpacing": 1.4,
+          "letterSpacing": 0.3,
+          "paragraphSpacingDp": 8
+        }
+      ],
+      "createdAt": 1787575100441,
+      "updatedAt": 1787575100441
+    },
+    {
+      "planId": "8da57cf0-a7f8-41e3-a355-4f0cbda6e712",
+      "title": "Weekend Roadtrip",
+      "description": "Planning trip with Bob",
+      "inviteCode": "WLY-M6Q-P3",
+      "ownerId": "user-a-1",
+      "ownerName": "Alice",
+      "partnerId": "user-b-2",
+      "partnerName": "Bob",
+      "revision": 3,
+      "blocks": [
+        {
+          "id": "b1bac60c-e02f-4a2d-9bb0-a7b366e91a55",
+          "type": "HEADING",
+          "text": "Depart at 8:00 AM on Saturday",
+          "spans": [
+            {
+              "start": 0,
+              "end": 6,
+              "isBold": true,
+              "textColorHex": "#60A5FA"
+            }
+          ],
+          "headingLevel": "H2",
+          "alignment": "LEFT",
+          "isChecked": false,
+          "numberIndex": 1,
+          "lineSpacing": 1.4,
+          "letterSpacing": 0.3,
+          "paragraphSpacingDp": 8
+        },
+        {
+          "id": "block-2",
+          "type": "CHECKLIST",
+          "text": "Pack hiking gear & snacks",
+          "spans": [],
+          "headingLevel": "NORMAL",
+          "alignment": "LEFT",
+          "isChecked": true,
+          "numberIndex": 1,
+          "lineSpacing": 1.4,
+          "letterSpacing": 0.3,
+          "paragraphSpacingDp": 8
+        }
+      ],
+      "createdAt": 1787575124084,
+      "updatedAt": 1787575124085
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DuoPlan",
+  "description": "A private two-person collaborative planning notepad app for shared real-time planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
